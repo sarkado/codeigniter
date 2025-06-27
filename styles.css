@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header {
+    background-color: #4a76a8;
+    color: #fff;
+    padding: 1rem;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+main {
+    padding: 1rem;
+}
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
